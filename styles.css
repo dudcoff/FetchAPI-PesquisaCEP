@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(-45deg, #e682de, #62d3d7, #6ed9c9, #85d6ff);
+    background-size: 220% 220%;
+    animation: main-login 10s ease infinite;
+    color: #ba1096;
+    font-size: 1.5em;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+h1, h3 {
+    background-image: linear-gradient(to bottom, #9054c5, #582e81, #4c197d);
+    color: #ba1096;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: #78696e8d 0.1em 0em 0.2em;
+    margin-bottom: 2px;
+    margin: auto;
+}
+
+#exibeTudo {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    color: #ba1096;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+select, label, button {
+    display: block;
+    text-align: center;
+}
+
+input {
+    width: auto;
+    background-color: #cdb4db;
+    border: solid 1px #6930c3;
+    color: #2d0f5c;
+}
+
+button {
+    margin-top: 10px;
+    width: 24%;
+    background-color: #cdb4db;
+    border: double 3px #6930c3;
+}
+
+select {
+    color: #ba1096;
+    background-color: #e0aaff;
+    font-size: 0.7em;
+}
+
+p {
+    margin-top: 0;
+}
+
+.card {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px;
+    background: linear-gradient(-45deg, #67edd9, #52d6db, #85d6ff);
+    background-size: 220% 220%;
+    animation: main-login 10s ease infinite;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    flex-direction: center;
+}
